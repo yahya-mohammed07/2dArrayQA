@@ -1,7 +1,7 @@
 #include <iostream>
 
 //
-void print_rows_cols_diagonals()// just printing
+auto print_rows_cols_diagonals() -> void// just printing
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -59,7 +59,7 @@ void print_rows_cols_diagonals()// just printing
 	}
 }
 //
-void swap_col_col()       // swapping columns with other columns
+auto swap_col_col() -> void      // swapping columns with other columns
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -126,7 +126,7 @@ void swap_col_col()       // swapping columns with other columns
 	}
 }
 //
-void swap_row_row()      // swap row row
+auto swap_row_row() -> void    // swap row row
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -159,7 +159,7 @@ void swap_row_row()      // swap row row
 	}
 }
 //
-void swap_col_row_second()    // swapping row columns with second diagonal
+auto swap_col_row_second() -> void   // swapping row columns with second diagonal
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -222,7 +222,7 @@ void swap_col_row_second()    // swapping row columns with second diagonal
 	}
 }
 //
-void swap_row_col_main()     // swapping rows columns with main diagonal
+auto swap_row_col_main() -> void    // swapping rows columns with main diagonal
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -287,7 +287,7 @@ void swap_row_col_main()     // swapping rows columns with main diagonal
 	}
 }
 //
-void swap_main_second_diagonal()    // swapping main with second diagonal
+auto swap_main_second_diagonal() -> void    // swapping main with second diagonal
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -321,7 +321,7 @@ void swap_main_second_diagonal()    // swapping main with second diagonal
 	}
 }
 //
-void swap_upperSide_lower()    // swapping upper side with lower side// not finished
+auto swap_upperSide_lower() -> void  // swapping upper side with lower side// not finished
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -351,7 +351,7 @@ void swap_upperSide_lower()    // swapping upper side with lower side// not fini
 	}
 }
 //
-void swap_triangles() // swapping upper triangle with lower one
+auto swap_triangles() -> void// swapping upper triangle with lower one
 {
 	int array[4][4] =
 	{       /*0  1  2  3*/
@@ -384,7 +384,7 @@ void swap_triangles() // swapping upper triangle with lower one
 	}
 }
 //
-int main()
+auto main() -> int
 {
 	print_rows_cols_diagonals();
 	//
